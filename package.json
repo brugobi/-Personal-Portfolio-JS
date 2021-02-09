@@ -1,0 +1,25 @@
+{
+  "name": "-Personal-Portfolio-JS",
+  "version": "1.0.0",
+  "description": "Personal Portfolio (JS version)",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "serve": "webpack serve --mode development --env development --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brugobi/-Personal-Portfolio-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brugobi/-Personal-Portfolio-JS/issues"
+  },
+  "homepage": "https://github.com/brugobi/-Personal-Portfolio-JS#readme",
+  "devDependencies": {
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
+  }
+}
