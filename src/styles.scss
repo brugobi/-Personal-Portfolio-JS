@@ -2,11 +2,68 @@
 
 @import "~bulma/bulma";
 
+// * {
+//   margin: 0;
+//   padding: 0;
+//   -webkit-box-sizing: content-box;
+//   -moz-box-sizing: content-box;
+//   box-sizing: content-box;
+// }
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+section {
+  background-color: #1c1a19;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  height: 100%;
+  padding-top: 150px !important;
+}
+
 .fa-snowflake {
   color: #db4747;
+}
+
+.logo2 {
+  width: 84px;
+  height: 84px;
+  background: #db4747;
+  mix-blend-mode: lighten;
+  border-radius: 50%;
 }
 
 .navbar-name {
   font-family: "Dancing Script", cursive;
   font-size: 40px;
+}
+
+.section-name {
+  font-family: "Playfair Display", serif;
+}
+
+.div-name {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.margin-left {
+  margin: 6px;
+}
+
+.social-media {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.social-media-title {
+  color: #db4747;
+}
+
+.intro {
+  font-family: "Poppins", sans-serif;
 }
