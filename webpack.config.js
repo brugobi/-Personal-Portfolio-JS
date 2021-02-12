@@ -48,6 +48,7 @@ module.exports = {
       {
         test: /\.(png|svg|jpe?g|gif)$/i,
         loader: 'file-loader',
+        type: 'asset/resource',
         options: {
           name: '[name].[ext]',
         },
