@@ -67,3 +67,46 @@ section {
 .intro {
   font-family: "Poppins", sans-serif;
 }
+
+.skills {
+  background: #212123;
+  box-shadow: 0 2px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.0525em;
+  color: #fff;
+  padding: 30px;
+  background-clip: content-box;
+}
+
+.fa-cogs {
+  color: rgb(78, 217, 236);
+  padding-top: 10px;
+  padding-left: 9px;
+}
+
+.fa-hashtag {
+  color: #5bf116;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.fa-lightbulb-o {
+  color: yellow;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.fa-heart-o {
+  color: red;
+  padding-top: 10px;
+  padding-left: 9px;
+}
+
+.btn-resume-div {
+  padding-top: 100px;
+}
