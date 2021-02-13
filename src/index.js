@@ -1,4 +1,5 @@
 import './styles.scss';
+// eslint-disable-next-line no-unused-vars
 import Trip from './assets/images/trip.jpg';
 
 const bugerIcon = document.querySelector('#burger');
