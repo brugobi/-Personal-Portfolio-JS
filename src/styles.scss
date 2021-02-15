@@ -110,3 +110,25 @@ section {
 .btn-resume-div {
   padding-top: 100px;
 }
+
+.card-img {
+  background: rgb(109, 16, 116);
+  background:
+    linear-gradient(
+      90deg,
+      rgba(109, 16, 116, 1) 0%,
+      rgba(13, 6, 17, 1) 0%,
+      rgba(29, 66, 161, 1) 0%,
+      rgba(93, 25, 149, 1) 0%,
+      rgba(8, 6, 9, 1) 0%,
+      rgba(102, 9, 47, 1) 18%,
+      rgba(85, 8, 38, 1) 30%,
+      rgba(16, 17, 2, 1) 100%,
+      rgba(48, 154, 235, 1) 100%,
+      rgba(0, 212, 255, 1) 100%
+    );
+}
+
+.card-content {
+  min-height: 40vh;
+}

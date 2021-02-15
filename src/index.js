@@ -1,6 +1,7 @@
+/* eslint-disable no-unused-vars */
 import './styles.scss';
-// eslint-disable-next-line no-unused-vars
 import Trip from './assets/images/trip.jpg';
+import Background from './assets/images/project.png';
 
 const bugerIcon = document.querySelector('#burger');
 const navbarMenu = document.querySelector('#nav-links');
