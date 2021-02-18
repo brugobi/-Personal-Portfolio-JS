@@ -53,5 +53,5 @@ prevBtn.addEventListener('click', () => {
   if (currentItem < 0) {
     currentItem = projects.length - 1;
   }
-  showPerson(projects);
+  showPerson();
 });
