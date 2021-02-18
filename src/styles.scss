@@ -132,3 +132,16 @@ section {
 .card-content {
   min-height: 40vh;
 }
+
+.next-btn {
+  cursor: pointer;
+}
+
+.prev-btn {
+  cursor: pointer;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  color: #db4747;
+}
