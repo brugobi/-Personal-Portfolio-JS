@@ -2,18 +2,22 @@
 
 @import "~bulma/bulma";
 
-// * {
-//   margin: 0;
-//   padding: 0;
-//   -webkit-box-sizing: content-box;
-//   -moz-box-sizing: content-box;
-//   box-sizing: content-box;
-// }
+$color-red: #db4747;
+$color-white: #fff;
+$color-black: #000;
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: border-box;
+}
 
 html,
 body {
-  height: 100vh;
-  width: 100vw;
+  // height: 100vh;
+  // width: 100vw;
 }
 
 section {
@@ -25,7 +29,7 @@ section {
 }
 
 .fa-snowflake {
-  color: #db4747;
+  color: $color-red;
 }
 
 .logo2 {
@@ -43,11 +47,6 @@ section {
 
 .section-name {
   font-family: "Playfair Display", serif;
-}
-
-.div-name {
-  display: inline-flex;
-  justify-content: space-between;
 }
 
 .margin-left {
@@ -83,28 +82,55 @@ section {
   background-clip: content-box;
 }
 
+.circle-icon {
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 38px;
+  border: solid 1px;
+}
+
+.fa-envelope {
+  color: #212123;
+}
+
+.fa-user {
+  color: #212123;
+}
+
 .fa-cogs {
   color: rgb(78, 217, 236);
   padding-top: 10px;
   padding-left: 9px;
+  background-color: rgba(55, 106, 237, 1);
+  opacity: 0.5;
 }
 
 .fa-hashtag {
   color: #5bf116;
   padding-top: 10px;
   padding-left: 10px;
+  background: #22b07d;
+  opacity: 0.5;
 }
 
 .fa-lightbulb {
   color: yellow;
   padding-top: 10px;
   padding-left: 15px;
+  background: #f19d2a;
+  opacity: 0.5;
 }
 
 .fa-heart {
   color: red;
   padding-top: 10px;
   padding-left: 9px;
+  background-color: #db4747;
+  opacity: 0.5;
 }
 
 .btn-resume-div {
@@ -143,5 +169,42 @@ section {
 
 .prev-btn:hover,
 .next-btn:hover {
-  color: #db4747;
+  color: $color-red;
+}
+
+.background-black {
+  background-color: $color-black;
+}
+
+.red-color {
+  color: $color-red;
+}
+
+.white-color {
+  color: $color-white;
+}
+
+.red-color-background {
+  background-color: $color-red;
+}
+
+footer {
+  padding-top: 40px;
+}
+
+.container-icon-footer {
+  width: 20vw;
+}
+
+button {
+  opacity: 100% !important;
+}
+
+/* #########################################-----MEDIA QUERY----######################################### */
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+@media (max-width: 767px) {
+  .container-icon-footer {
+    width: 40vw;
+  }
 }

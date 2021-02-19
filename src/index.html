@@ -62,10 +62,10 @@
           <div class="columns pt-6 social-media">
             <div class="social-media-title">Social Media</div>
             <div>------</div>
-            <div><a href="https://twitter.com/BrunaGobi2" target="_blanck"><i class="fab fa-twitter"></i></a></div>
-            <div><a href="https://github.com/brugobi" target="_blanck"><i class="fab fa-github"></i></a></div>
-            <div><a href="https://www.linkedin.com/in/bruna-gobi/" target="_blanck"><i class="fab fa-linkedin-in"></i></a></div>
-            <div><a href="https://angel.co/u/bruna-da-nielle-de-oliveira-gobi" target="_blanck"><i class="fab fa-angellist"></i></a></div>
+            <div><a class="white-color" href="https://twitter.com/BrunaGobi2" target="_blanck"><i class="fab fa-twitter"></i></a></div>
+            <div><a class="white-color" href="https://github.com/brugobi" target="_blanck"><i class="fab fa-github"></i></a></div>
+            <div><a class="white-color" href="https://www.linkedin.com/in/bruna-gobi/" target="_blanck"><i class="fab fa-linkedin-in"></i></a></div>
+            <div><a class="white-color" href="https://angel.co/u/bruna-da-nielle-de-oliveira-gobi" target="_blanck"><i class="fab fa-angellist"></i></a></div>
           </div>
           
         </div>
@@ -120,7 +120,7 @@
           </div>
         </div>
       </div>
-      <div class="columns div-name">
+      <div class="columns is-flex is-justify-content-space-between">
         <div class="prev-btn"><i class="fas fa-arrow-left"></i>&nbsp;&nbsp;Previous project</div>
         <div class="next-btn">Next project&nbsp;&nbsp;<i class="fas fa-arrow-right"></i></div>
       </div>
@@ -146,13 +146,13 @@
             Developer in constant learning. Currently looking for opportunities.</p>
           </div>
           <div class="columns btn-resume-div">
-            <button><a href="https://docs.google.com/document/d/1iLDh0l_fHicGhtnwW4FKPHUrxGphK6H80bU5vRgIQbA/edit?usp=sharing" target="_blanck">Get my Resume</a>&nbsp;<i class="fas fa-external-link-alt"></i></a></button>
+            <button><a href="https://docs.google.com/document/d/1iLDh0l_fHicGhtnwW4FKPHUrxGphK6H80bU5vRgIQbA/edit?usp=sharing" target="_blanck">Get my Resume&nbsp;<i class="fas fa-external-link-alt"></i></a></button>
           </div>
         </div>
         <div class="column">
           <div class="columns">
             <div class="column skills">
-              <div><i class="fa fa-hashtag fa-2x" aria-hidden="true"></i></div>
+              <div><i class="fa fa-hashtag fa-2x circle-icon" aria-hidden="true"></i></div>
               <h1 class="has-text-weight-bold">Languages</h1>
               <ul>
                 <li>JavaScript</li>
@@ -162,7 +162,7 @@
               </ul>
             </div>
             <div class="column skills">
-              <div><i class="fa fa-cogs fa-2x" aria-hidden="true"></i></div>
+              <div><i class="fa fa-cogs fa-2x circle-icon" aria-hidden="true"></i></div>
               <h1 class="has-text-weight-bold">Frameworks</h1>
               <ul>
                 <li>Bootstrap</li>
@@ -174,7 +174,7 @@
           </div>
           <div class="columns">
             <div class="column skills">
-              <div><i class="far fa-lightbulb fa-2x"></i></div>
+              <div><i class="far fa-lightbulb fa-2x circle-icon"></i></div>
               <h1 class="has-text-weight-bold">Skills</h1>
               <ul>
                 <li>SQL</li>
@@ -184,7 +184,7 @@
               </ul>
             </div>
             <div class="column skills">
-              <div><i class="far fa-heart fa-2x"></i></div>
+              <div><i class="far fa-heart fa-2x circle-icon"></i></div>
               <h1 class="has-text-weight-bold">Soft skills</h1>
               <ul>
                 <li>Teamwork</li>
@@ -219,60 +219,58 @@
           <form id="form" action="https://formspree.io/f/myybazgg" method="POST">
             <div class="field">
               <label class="label">Name</label>
-              <div class="control">
-                <input id="name" class="input" type="text" placeholder="What is your name?" required>
+              <div class="control has-icons-left">
+                <input id="name" class="input is-danger background-black" type="text" placeholder="What is your name?" required>
+                <span class="icon is-small is-left">
+                  <i class="fas fa-user"></i>
+                </span>
               </div>
-              <p class="help is-danger">This email is invalid</p>
+              <p class="help is-danger" style="display: none;">Name cannot be blanck</p>
             </div>
           
             <div class="field">
               <label class="label">Email</label>
               <div class="control has-icons-left has-icons-right">
-                <input id="email" class="input is-danger" type="email" placeholder="Email input" value="hello@" name="_replyto">
+                <input id="email" class="input is-danger background-black" type="email" placeholder="Email input" value="hello@" name="_replyto">
                 <span class="icon is-small is-left">
                   <i class="fas fa-envelope"></i>
                 </span>
-                <span class="icon is-small is-right">
-                  <i class="fas fa-exclamation-triangle"></i>
-                </span>
               </div>
-              <p class="help is-danger">This email is invalid</p>
+              <p class="help is-danger" style="display: none;">This email is invalid</p>
             </div>
           
             <div class="field">
               <label class="label">Message</label>
               <div class="control">
-                <textarea id="message" class="textarea" placeholder="Textarea" name="message" required></textarea>
+                <textarea id="message" class="textarea is-danger background-black" placeholder="Textarea" name="message" required></textarea>
               </div>
             </div>
           
-            <div class="field is-grouped">
+            <div class="field is-grouped red-color-background is-flex is-justify-content-space-around">
               <div class="control">
-                <button class="button is-link" type="submit">Submit</button>
-              </div>
-              <div class="control">
-                <button class="button is-link is-light">Cancel</button>
+                <button class="button is-ghost" type="submit"><strong><a class="white-color">Submit</a></strong></button>
               </div>
             </div>
           </form>
         </div>
       </div>
     </div>
-  </section>
-  <!-- end contact -->
+    <!-- end contact -->
 
-  <!-- FOOTER -->
-  <footer class="footer has-background-dark">
-    <div class="content has-text-centered">
-      <p>
-        <strong><a href="https://docs.google.com/document/d/1iLDh0l_fHicGhtnwW4FKPHUrxGphK6H80bU5vRgIQbA/edit?usp=sharing" target="_blanck">Get my Resume</a>&nbsp;<i class="fas fa-external-link-alt"></i></strong>
-        <a href="https://twitter.com/BrunaGobi2" target="_blanck"><i class="fab fa-twitter"></i></a>
-        <a href="https://github.com/brugobi" target="_blanck"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/bruna-gobi/" target="_blanck"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://angel.co/u/bruna-da-nielle-de-oliveira-gobi" target="_blanck"><i class="fab fa-angellist"></i></a>
-      </p>
-    </div>
-  </footer>
-  <!-- END FOOTER -->
+    <!-- FOOTER -->
+    <footer class="is-flex is-justify-content-space-between">
+      <div>
+        <strong><a class="red-color" href="https://docs.google.com/document/d/1iLDh0l_fHicGhtnwW4FKPHUrxGphK6H80bU5vRgIQbA/edit?usp=sharing"
+            target="_blanck">Get my Resume&nbsp;<i class="fas fa-external-link-alt"></i></a></strong>
+      </div>
+      <div class="is-flex is-justify-content-space-around container-icon-footer">
+        <a class="white-color" href="https://twitter.com/BrunaGobi2" target="_blanck"><i class="fab fa-twitter"></i></a>
+        <a class="white-color" href="https://github.com/brugobi" target="_blanck"><i class="fab fa-github"></i></a>
+        <a class="white-color" href="https://www.linkedin.com/in/bruna-gobi/" target="_blanck"><i class="fab fa-linkedin-in"></i></a>
+        <a  class="white-color" href="https://angel.co/u/bruna-da-nielle-de-oliveira-gobi" target="_blanck"><i class="fab fa-angellist"></i></a>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+  </section>
 </body>
 </html>
