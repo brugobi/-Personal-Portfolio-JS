@@ -137,26 +137,36 @@ section {
   padding-top: 100px;
 }
 
-.card-img {
-  background: rgb(109, 16, 116);
-  background:
-    linear-gradient(
-      90deg,
-      rgba(109, 16, 116, 1) 0%,
-      rgba(13, 6, 17, 1) 0%,
-      rgba(29, 66, 161, 1) 0%,
-      rgba(93, 25, 149, 1) 0%,
-      rgba(8, 6, 9, 1) 0%,
-      rgba(102, 9, 47, 1) 18%,
-      rgba(85, 8, 38, 1) 30%,
-      rgba(16, 17, 2, 1) 100%,
-      rgba(48, 154, 235, 1) 100%,
-      rgba(0, 212, 255, 1) 100%
-    );
+.btn-resume {
+  width: 126px;
+  height: 40px;
+  background-color: $color-red;
+  border: none;
 }
 
-.card-content {
-  min-height: 40vh;
+.btn-resume a {
+  color: $color-white;
+}
+
+.project-title {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+}
+
+.project-info {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tools {
+  width: 100px;
+  height: 30px;
+  padding: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  color: $color-white;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .next-btn {
@@ -188,6 +198,10 @@ section {
   background-color: $color-red;
 }
 
+.number3 {
+  color: rgb(55, 56, 57);
+}
+
 footer {
   padding-top: 40px;
 }
@@ -207,4 +221,8 @@ button {
   .container-icon-footer {
     width: 40vw;
   }
+
+  .btn-resume-div {
+  padding-top: 50px;
+}
 }

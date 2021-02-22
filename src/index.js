@@ -5,6 +5,11 @@ import Trip from './assets/images/trip.jpg';
 import News from './assets/images/news_week.png';
 import Shop from './assets/images/online_shop.png';
 import Background from './assets/images/project.png';
+import Expectrum from './assets/images/expectrum.png';
+import Square from './assets/images/square.png';
+import Frame from './assets/images/frame.png';
+import Wales from './assets/images/wales.png';
+
 
 const bugerIcon = document.querySelector('#burger');
 const navbarMenu = document.querySelector('#nav-links');
