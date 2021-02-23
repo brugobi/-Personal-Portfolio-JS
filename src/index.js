@@ -34,6 +34,14 @@ const showPerson = () => {
   info.textContent = item.text;
   linkDemo.href = item.live;
   linkSource.href = item.source;
+  const divTools = document.querySelector('.div-tools');
+  divTools.innerHTML = '';
+  projects[currentItem].tool.forEach(tool => {
+      const p = document.createElement('p');
+      p.classList.add('tools');
+      divTools.appendChild(p);
+      p.textContent = tool;
+  });
 };
 
 const prevBtn = document.querySelector('.prev-btn');

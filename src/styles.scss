@@ -148,6 +148,10 @@ section {
   color: $color-white;
 }
 
+#project-img {
+  width: 40vw;
+}
+
 .project-title {
   font-family: "Dancing Script", cursive;
   font-size: 40px;
@@ -167,6 +171,10 @@ section {
   font-size: 12px;
   color: $color-white;
   background: rgba(0, 0, 0, 0.5);
+}
+
+.project-container {
+  margin-top: 50px;
 }
 
 .next-btn {
@@ -224,5 +232,9 @@ button {
 
   .btn-resume-div {
   padding-top: 50px;
+  }
+
+  #project-img {
+  width: 100vw;
 }
 }

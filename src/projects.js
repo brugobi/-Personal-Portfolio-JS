@@ -57,7 +57,7 @@ const projects = [
     source: 'https://github.com/brugobi/online-shop',
     live: 'https://raw.githack.com/brugobi/online-shop/master/index.html',
     text:
-      'This project is about building a webpage based on an online shop for electronics using HTML and CSS. Design idea by Mohammed Awad on Behance and you can check out on this link (https://www.behance.net/gallery/24796463/ZATTIX). Based on the mentioned template I decided to customize it and build a board game store. There are two pages: the main one and the search result one.',
+      'This project is about building a webpage based on an online shop for electronics using HTML and CSS. Design idea by Mohammed Awad on Behance. Based on the mentioned template I decided to customize it and build a board game store. There are two pages: the main one and the search result one.',
   },
 ];
 
