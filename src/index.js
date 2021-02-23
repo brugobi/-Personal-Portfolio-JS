@@ -37,10 +37,10 @@ const showPerson = () => {
   const divTools = document.querySelector('.div-tools');
   divTools.innerHTML = '';
   projects[currentItem].tool.forEach(tool => {
-      const p = document.createElement('p');
-      p.classList.add('tools');
-      divTools.appendChild(p);
-      p.textContent = tool;
+    const div = document.createElement('div');
+    div.classList.add('tools');
+    divTools.appendChild(div);
+    div.textContent = tool;
   });
 };
 
