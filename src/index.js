@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import './styles.scss';
 import projects from './projects';
-import Trip from './assets/images/trip.jpg';
+import Blog from './assets/images/blog.jpg';
 import News from './assets/images/news_week.png';
 import Shop from './assets/images/online_shop.png';
 import Background from './assets/images/project.png';
@@ -9,6 +9,9 @@ import Expectrum from './assets/images/expectrum.png';
 import Square from './assets/images/square.png';
 import Frame from './assets/images/frame.png';
 import Wales from './assets/images/wales.png';
+import Weather from './assets/images/weather.png';
+import Restaurant from './assets/images/restaurant.png';
+import Game from './assets/images/game2.jpg';
 
 
 const bugerIcon = document.querySelector('#burger');

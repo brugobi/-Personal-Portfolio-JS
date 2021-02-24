@@ -148,9 +148,13 @@ section {
   color: $color-white;
 }
 
-#project-img {
-  width: 40vw;
+#info {
+  padding: 20px;
 }
+
+// #project-img {
+//   width: 40vw;
+// }
 
 .project-title {
   font-family: "Dancing Script", cursive;
@@ -161,6 +165,14 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+// .div-tools {
+//   margin-top: 150px;
+// }
+
+.div-btn {
+  padding: 10px;
 }
 
 .tools {

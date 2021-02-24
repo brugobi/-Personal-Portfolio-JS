@@ -3,7 +3,7 @@ const projects = [
     id: 1,
     title: 'Trip Tips Canada',
     tool: ['Ruby on Rails', 'HTML/CSS'],
-    img: './trip.jpg',
+    img: './blog.jpg',
     source: 'https://github.com/brugobi/RoR--Capstone',
     live: 'https://trip-tips-canada.herokuapp.com/',
     text:
@@ -13,7 +13,7 @@ const projects = [
     id: 2,
     title: 'The Walkers',
     tool: ['JavaScript', 'Phaser3', 'HTML/CSS'],
-    img: './trip.jpg',
+    img: './game2.jpg',
     source: 'https://github.com/brugobi/phaser-capstone',
     live: 'https://brugobi.github.io/phaser-capstone/',
     text:
@@ -23,7 +23,7 @@ const projects = [
     id: 3,
     title: 'Weather App',
     tool: ['JavaScrip', 'APIs', 'Bulma', 'HTML/CSS'],
-    img: './trip.jpg',
+    img: './weather.png',
     source: 'https://github.com/brugobi/Weather-App-JS',
     live: 'https://raw.githack.com/brugobi/Weather-App-JS/feature_v1/dist/index.html',
     text:
@@ -43,7 +43,7 @@ const projects = [
     id: 5,
     title: 'Restaurant Page',
     tool: ['JavaScrip', 'Node.js', 'Webpack', 'Boostrap', 'HTML/CSS'],
-    img: './trip.jpg',
+    img: './restaurant.png',
     source: 'https://github.com/brugobi/restaurant_page-js',
     live: 'https://raw.githack.com/brugobi/restaurant_page-js/feature/dist/index.html',
     text:
